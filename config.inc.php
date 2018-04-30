@@ -28,7 +28,7 @@ $i++;
 /* Authentication type */
 $cfg['Servers'][$i]['auth_type'] = 'http';
 /* Server parameters */
-$cfg['Servers'][$i]['host'] = '192.168.14.241';
+$cfg['Servers'][$i]['host'] = 'mariadb';
 $cfg['Servers'][$i]['connect_type'] = 'tcp';
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['extension'] = 'mysqli';
